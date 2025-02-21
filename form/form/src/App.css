@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  header{
+    width: 85%;
+    height: 50px;
+    background-color: rgb(254, 227, 203);
+    position: absolute;
+    left: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+  }
+  .logo{
+    margin: 0px 20px
+  }
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 50px;
+  }
+  ul li{
+    padding: 0px 10px;
+    font-weight: bolder;
+  }
+  .sidebar{       
+    width: 15%;
+    height: 110vh;
+    position: fixed;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    flex-direction: column;
+    text-align: center
+  }
+  .SideH1{
+    margin-top: 70px;
+    font-size: 40px;
+  }
+  .SideUl{
+    margin-top: 50px;
+  }
+  
+  .ForSideLi{
+    padding: 30px 0px;
+    justify-items: left;
+    font-size: 20px;
+  }
+  
+  /* Form Start */
+  
+  .ForForms {  
+    position: absolute;
+    left: 15%;
+    width: 85%;
+    top: 51px;
+    background-color: #f0f0f0;  
+    padding: 20px;  
+    /* border-radius: 5px;   */
+  }  
+  
+  button {  
+    padding: 10px 15px;  
+    background-color: #007bff;  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+  } 
+  .ForBTN{
+    margin-left: 500px;
+  } 
+  
+  button:hover {  
+    background-color: #0056b3;  
+  }
+  
+  .ForHeading{
+    margin-left: 43%;
+    color: red;
+  }
+  
+  .ForDisFlex{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+  }
+  .ForChekBox{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 230px;
+  }
+  input{
+    margin-left: 10px;
+    padding: 0px 20px;
+  }
+  
+  label{
+    margin-left: 10px;
+  }
+  
+  table{
+    margin-left: 10px;
+    margin-top: 14px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  td{
+    padding: 15px 5px;
+  }
+  .ForEditBTN{
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .ForDelBTN{
+    margin-right: 15px;
+  } 

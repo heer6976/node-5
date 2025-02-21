@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    margin-left: 200px;
+    width: 100%;
+    margin-top: 100px;
+    justify-content: center;
+}
+.ForDisplay{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ForH3tags{
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+}
